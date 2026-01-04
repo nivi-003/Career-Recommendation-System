@@ -1,30 +1,54 @@
 # Career Recommendation System 🚀
 
-A Python-based career recommendation system that suggests suitable career paths based on a user's skill set.
+A Python-based **Career Recommendation System** that suggests suitable career paths based on a user's skill set.  
+This project is implemented as both a **console-based application** and a **web-based interactive application**.
 
 ---
 
 ## 📌 Features
-- Uses a large skill–career dataset
-- Menu-driven user input (1 = Yes, 0 = No)
-- Calculates match percentage
-- Displays Top 3 career recommendations
-- Visualizes results using a bar chart
+
+- Uses a large skill–career dataset  
+- Menu-driven user input (1 = Yes, 0 = No)  
+- Calculates match scores based on skills  
+- Displays Top 3 career recommendations  
+- Visualizes results using charts  
+- Interactive web interface using Streamlit  
 
 ---
 
 ## 🛠 Technologies Used
-- Python
-- Pandas
-- Matplotlib
+
+- Python  
+- Pandas  
+- Scikit-learn  
+- Plotly  
+- Streamlit  
 
 ---
 
-## ▶️ How to Run the Project
+## 🚀 Live Demo
 
-1. Download the project files
-2. Open Terminal
-3. Navigate to the project folder
-4. Run the program:
+Access the deployed web application here:
+
+🔗 https://career-recommendation-system.streamlit.app
+
+---
+
+## ▶️ How to Run the Project Locally
+
 ```bash
-python3 career.py
+git clone https://github.com/nivi-003/Career-Recommendation-System.git
+cd Career-Recommendation-System
+pip install -r requirements.txt
+streamlit run app.py
+```
+## 📸 Project Screenshots
+
+### Web Application Interface
+![Web App UI](screenshots/web_app_ui.png)
+
+### Career Recommendation Results
+![Result Chart](screenshots/result_chart.png)
+
+### Code Snippet
+![Code](screenshots/code_snippet.png)

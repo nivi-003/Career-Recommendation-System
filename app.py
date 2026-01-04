@@ -9,6 +9,10 @@ st.cache_resource.clear()
 
 
 
+st.cache_data.clear()
+st.cache_resource.clear()
+
+
 from sklearn.metrics.pairwise import cosine_similarity
 
 st.set_page_config( 
